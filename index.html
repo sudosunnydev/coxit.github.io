@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cox IT - Empowering Your IT Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1 class="logo">Cox IT</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Empowering Your IT Solutions</h1>
+            <p class="hero-subtitle">At Cox IT, we provide innovative tech solutions to empower your digital realm</p>
+            <button class="btn btn-primary hero-cta">Get Started</button>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="services-title">Our Services</h2>
+            
+            <!-- CoxCloud Service -->
+            <div class="service-card" data-service="coxcloud">
+                <div class="service-header">
+                    <div class="service-icon">🎮</div>
+                    <div class="service-info">
+                        <h3 class="service-name">CoxCloud - Server Hosting</h3>
+                        <p class="service-description">Leverage the power and freedom of your own cloud gaming server with 24/7 remote access</p>
+                        <div class="service-price-info">
+                            <span class="service-starting-price">Starting at $8/month</span>
+                            <span class="value-badge">Improved Value!</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary expand-btn" data-target="coxcloud-plans">
+                        <span class="btn-text">View All Plans</span>
+                        <span class="btn-icon">▼</span>
+                    </button>
+                </div>
+                
+                <div class="service-plans" id="coxcloud-plans">
+                    <div class="plans-grid">
+                        <!-- Starter Plan -->
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <div class="plan-icon">🎮</div>
+                                <h4 class="plan-name">Starter</h4>
+                                <div class="plan-pricing">
+                                    <span class="plan-price">$8<span class="plan-period">/month</span></span>
+                                    <span class="plan-original-price">was $10</span>
+                                </div>
+                            </div>
+                            <p class="plan-description">Perfect for casual gaming and small projects</p>
+                            <div class="plan-specs">
+                                <div class="spec">
+                                    <span class="spec-label">RAM:</span>
+                                    <span class="spec-value">6 GB</span>
+                                </div>
+                                <div class="spec">
+                                    <span class="spec-label">CPU:</span>
+                                    <span class="spec-value">2x vCPU @ 4.2 GHz</span>
+                                </div>
+                                <div class="spec">
+                                    <span class="spec-label">Storage:</span>
+                                    <span class="spec-value">50 GB NVMe SSD</span>
+                                </div>
+                            </div>
+                            <ul class="plan-features">
+                                <li>6 GB RAM (50% more than before)</li>
+                                <li>2x vCPU @ 4.2 GHz (doubled cores)</li>
+                                <li>50 GB NVMe SSD (3x more storage)</li>
+                                <li>Full 24/7 Remote Access</li>
+                                <li>Basic Performance Monitoring</li>
+                                <li>Email Support</li>
+                            </ul>
+                        </div>
+
+                        <!-- Gamer Plan -->
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <div class="plan-icon">⚡</div>
+                                <h4 class="plan-name">Gamer</h4>
+                                <div class="plan-pricing">
+                                    <span class="plan-price">$18<span class="plan-period">/month</span></span>
+                                    <span class="plan-original-price">was $25</span>
+                                </div>
+                            </div>
+                            <p class="plan-description">Great for modded games and multiplayer servers</p>
+                            <div class="plan-specs">
+                                <div class="spec">
+                                    <span class="spec-label">RAM:</span>
+                                    <span class="spec-value">12 GB</span>
+                                </div>
+                                <div class="spec">
+                                    <span class="spec-label">CPU:</span>
+                                    <span class="spec-value">3x vCPU @ 4.2 GHz</span>
+                                </div>
+                                <div class="spec">
+                                    <span class="spec-label">Storage:</span>
+                                    <span class="spec-value">100 GB NVMe SSD</span>
+                                </div>
+                            </div>
+                            <ul class="plan-features">
+                                <li>12 GB RAM (50% more than old Tinkerer)</li>
+                                <li>3x vCPU @ 4.2 GHz</li>
+                                <li>100 GB NVMe SSD (3x more storage)</li>
+                                <li>24/7 Remote Access</li>
+                                <li>Priority Support</li>
+                                <li>Game Auto-Installation</li>
+                                <li>Performance Monitoring Dashboard</li>
+                            </ul>
+                        </div>
+
+                        <!-- Pro Plan -->
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <div class="plan-icon">🔥</div>
+                                <h4 class="plan-name">Pro</h4>
+                                <div class="plan-pricing">
+                                    <span class="plan-price">$32<span class="plan-period">/month</span></span>
+                                    <span class="plan-original-price">was $40</span>
+                                </div>
+                            </div>
+                            <p class="plan-description">Ideal for demanding games and content creation</p>
+                            <div class="plan-specs">
+                                <div class="spec">
+                                    <span class="spec-label">RAM:</span>
+                                    <span class="spec-value">20 GB</span>
+                                </div>
+                                <div class="spec">
+                                    <span class="spec-label">CPU:</span>
+                                    <span class="spec-value">4x vCPU @ 4.5 GHz</span>
+                                </div>
+                                <div class="spec">
+                                    <span class="spec-label">Storage:</span>
+                                    <span class="spec-value">200 GB NVMe SSD</span>
+                                </div>
+                            </div>
+                            <ul class="plan-features">
+                                <li>20 GB RAM (67% more than old Enthusiast)</li>
+                                <li>4x vCPU @ 4.5 GHz (faster clocks)</li>
+                                <li>200 GB NVMe SSD (4x more storage)</li>
+                                <li>24/7 Remote Access</li>
+                                <li>Performance Tuning Assistance</li>
+                                <li>Game Installation & Mod Support</li>
+                                <li>Automated Backups</li>
+                                <li>Live Chat Support</li>
+                            </ul>
+                        </div>
+
+                        <!-- Elite Plan -->
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <div class="plan-icon">🚀</div>
+                                <h4 class="plan-name">Elite</h4>
+                                <div class="plan-pricing">
+                                    <span class="plan-price">$55<span class="plan-period">/month</span></span>
+                                    <span class="plan-original-price">was $75</span>
+                                </div>
+                            </div>
+                            <p class="plan-description">Enterprise-grade performance for serious gamers</p>
+                            <div class="plan-specs">
+                                <div class="spec">
+                                    <span class="spec-label">RAM:</span>
+                                    <span class="spec-value">32 GB</span>
+                                </div>
+                                <div class="spec">
+                                    <span class="spec-label">CPU:</span>
+                                    <span class="spec-value">6x vCPU @ 4.7 GHz</span>
+                                </div>
+                                <div class="spec">
+                                    <span class="spec-label">Storage:</span>
+                                    <span class="spec-value">400 GB NVMe SSD</span>
+                                </div>
+                            </div>
+                            <ul class="plan-features">
+                                <li>32 GB RAM (double the old Master)</li>
+                                <li>6x vCPU @ 4.7 GHz (50% more cores)</li>
+                                <li>400 GB NVMe SSD (6x more storage)</li>
+                                <li>24/7 Remote Access</li>
+                                <li>Full Admin Control & Optimization</li>
+                                <li>Backup & Recovery Options</li>
+                                <li>Premium Support Access</li>
+                                <li>Custom Server Configuration</li>
+                                <li>DDoS Protection</li>
+                                <li>Priority Hardware</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CoxLabs Service -->
+            <div class="service-card" data-service="coxlabs">
+                <div class="service-header">
+                    <div class="service-icon">🖥️</div>
+                    <div class="service-info">
+                        <h3 class="service-name">CoxLabs - Custom PC Building</h3>
+                        <p class="service-description">Get a PC built just for you—expertly assembled, stress-tested, and tailored to your needs</p>
+                        <div class="service-price-info">
+                            <span class="service-starting-price">Starting at $99</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary expand-btn" data-target="coxlabs-plans">
+                        <span class="btn-text">View All Plans</span>
+                        <span class="btn-icon">▼</span>
+                    </button>
+                </div>
+                
+                <div class="service-plans" id="coxlabs-plans">
+                    <div class="plans-grid">
+                        <!-- Basic Plan -->
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <div class="plan-icon">🧰</div>
+                                <h4 class="plan-name">Basic</h4>
+                                <div class="plan-pricing">
+                                    <span class="plan-price">$99</span>
+                                </div>
+                            </div>
+                            <p class="plan-description">For simple builds and everyday use</p>
+                            <ul class="plan-features">
+                                <li>Initial consultation (1 hour)</li>
+                                <li>Component compatibility check</li>
+                                <li>Full assembly & cable management</li>
+                                <li>Basic BIOS setup & Windows installation</li>
+                                <li>5-day turnaround</li>
+                                <li>Pick-up or local drop-off</li>
+                            </ul>
+                        </div>
+
+                        <!-- Tinkerer Plan -->
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <div class="plan-icon">🔧</div>
+                                <h4 class="plan-name">Tinkerer</h4>
+                                <div class="plan-pricing">
+                                    <span class="plan-price">$149</span>
+                                </div>
+                            </div>
+                            <p class="plan-description">Great for budget gaming or workstation setups</p>
+                            <ul class="plan-features">
+                                <li>All Basic Plan features, plus:</li>
+                                <li>Custom BIOS configuration (XMP, fan curves, etc.)</li>
+                                <li>Light RGB/software setup</li>
+                                <li>Stress testing & thermal checks</li>
+                                <li>Dust filters & airflow optimization</li>
+                                <li>3-day turnaround</li>
+                            </ul>
+                        </div>
+
+                        <!-- Enthusiast Plan -->
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <div class="plan-icon">⚙️</div>
+                                <h4 class="plan-name">Enthusiast</h4>
+                                <div class="plan-pricing">
+                                    <span class="plan-price">$229</span>
+                                </div>
+                            </div>
+                            <p class="plan-description">Ideal for gamers, streamers, or content creators</p>
+                            <ul class="plan-features">
+                                <li>All Tinkerer features, plus:</li>
+                                <li>Advanced cable routing & custom cooling support</li>
+                                <li>Overclocking (CPU/GPU, if supported)</li>
+                                <li>Game & software pre-installation (upon request)</li>
+                                <li>Performance benchmarking report</li>
+                                <li>Premium thermal paste application</li>
+                                <li>2-day turnaround</li>
+                            </ul>
+                        </div>
+
+                        <!-- Master Plan -->
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <div class="plan-icon">🚀</div>
+                                <h4 class="plan-name">Master</h4>
+                                <div class="plan-pricing">
+                                    <span class="plan-price">$349</span>
+                                </div>
+                            </div>
+                            <p class="plan-description">For high-end, showcase builds with max performance</p>
+                            <ul class="plan-features">
+                                <li>All Enthusiast features, plus:</li>
+                                <li>Custom loop or AIO liquid cooling installation</li>
+                                <li>RGB/ARGB syncing & cable extensions</li>
+                                <li>Personalized component recommendations & sourcing</li>
+                                <li>Dual system or ITX builds supported</li>
+                                <li>Lifetime build support (within reasonable limits)</li>
+                                <li>Next-day turnaround (on availability)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CoxLogic Service -->
+            <div class="service-card" data-service="coxlogic">
+                <div class="service-header">
+                    <div class="service-icon">🤓</div>
+                    <div class="service-info">
+                        <h3 class="service-name">CoxLogic - IT Support</h3>
+                        <p class="service-description">Your one-man tech ally—quick, friendly, and jargon-free personal IT support</p>
+                        <div class="service-price-info">
+                            <span class="service-starting-price">Custom Pricing</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary expand-btn" data-target="coxlogic-plans">
+                        <span class="btn-text">View Details</span>
+                        <span class="btn-icon">▼</span>
+                    </button>
+                </div>
+                
+                <div class="service-plans" id="coxlogic-plans">
+                    <div class="plans-grid">
+                        <!-- Custom Support Plan -->
+                        <div class="plan-card">
+                            <div class="plan-header">
+                                <div class="plan-icon">🤓</div>
+                                <h4 class="plan-name">Custom Support</h4>
+                                <div class="plan-pricing">
+                                    <span class="plan-price">Contact for Quote</span>
+                                </div>
+                            </div>
+                            <p class="plan-description">Personalized IT support solutions tailored to your needs</p>
+                            <ul class="plan-features">
+                                <li>Fully customized IT support plans</li>
+                                <li>Tailored to your specific requirements</li>
+                                <li>Hardware configuration assistance</li>
+                                <li>Specialized software support</li>
+                                <li>Hands-on technical assistance</li>
+                                <li>Flexible pricing based on needs</li>
+                                <li>Device setup and troubleshooting</li>
+                                <li>Remote and on-site support options</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <p>Email: <a href="mailto:dylancox.mi@gmail.com">dylancox.mi@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+8585279031">(858) 527-9031</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Get in Touch</h3>
+                    <form class="contact-form">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                        <textarea class="form-control" placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cox IT. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
